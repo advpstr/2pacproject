@@ -1,0 +1,81 @@
+
+body {
+  background-color: #F4F4F9;
+  color: #333;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* En-tête */
+.banner {
+  background: linear-gradient(90deg, #4E54C8, #8F94FB);
+  color: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.banner h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.banner h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.banner .btn-blue {
+  background-color: #F4F4F9;
+  color: #4E54C8;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-size: 18px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.banner .btn-blue:hover {
+  background-color: #4E54C8;
+  color: #F4F4F9;
+}
+
+/* Conteneur général */
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+/* Titres des sections */
+.container h2 {
+  color: #4E54C8;
+  border-bottom: 2px solid #8F94FB;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+/* Paragraphes */
+.container p {
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Section des films */
+.film {
+  margin-bottom: 40px;
+}
+
+.film img {
+  max-width: 100%;
+  display: block;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Animation douce pour les images */
+.film img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s;
+}
